@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Sala de Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mapa de Sala de Aula</h1>
+        
+        <!-- Representação da lousa/professor -->
+        <div class="quadro">LOUSA / PROFESSOR</div>
+
+        <!-- Grade de carteiras (Exemplo: 4 fileiras x 5 colunas) -->
+        <div class="sala-aula">
+            <!-- Fileira 1 -->
+            <div class="carteira">
+                <span class="numero">A1</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">A2</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">A3</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">A4</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+
+            <!-- Fileira 2 -->
+            <div class="carteira">
+                <span class="numero">B1</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">B2</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">B3</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">B4</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+
+            <!-- Fileira 3 -->
+            <div class="carteira">
+                <span class="numero">C1</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">C2</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">C3</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">C4</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+
+            <!-- Fileira 4 -->
+            <div class="carteira">
+                <span class="numero">D1</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">D2</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">D3</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+            <div class="carteira">
+                <span class="numero">D4</span>
+                <input type="text" placeholder="Nome do aluno" class="aluno-input">
+            </div>
+        </div>
+
+        <button onclick="salvarMapa()" class="btn-salvar">Salvar Layout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
